@@ -45,7 +45,7 @@ If the table already exist, you can delete: `aws dynamodb delete-table --table-n
        EAGER: Containers for all functions are loaded at startup and persist between invocations.
        LAZY:  Containers are only loaded when each function is first invoked. Those containers persist for additional invocations.
 
-Now you can explore all endpoints, use the src/test/resources/Study DataLake.postman_collection.json to import a API Rest Collection into Postman.
+Now you can explore all endpoints, use the src/test/resources/Trips.postman_collection.json to import a API Rest Collection into Postman.
 
 **SAM CLI** is used to emulate both Lambda and API Gateway locally and uses our `template.yaml` to
 understand how to bootstrap this environment (runtime, where the source code is, etc.) - The
